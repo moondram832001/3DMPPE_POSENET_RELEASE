@@ -119,4 +119,5 @@ for n in range(person_num):
 
 # visualize 3d poses
 vis_kps = np.array(output_pose_3d_list)
+print( str(vis_kps) )
 #vis_3d_multiple_skeleton(vis_kps, np.ones_like(vis_kps), skeleton, 'output_pose_3d (x,y,z: camera-centered. mm.)')
