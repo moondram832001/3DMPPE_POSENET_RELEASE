@@ -114,8 +114,8 @@ for n in range(person_num):
     vis_kps[0,:] = output_pose_2d_list[n][:,0]
     vis_kps[1,:] = output_pose_2d_list[n][:,1]
     vis_kps[2,:] = 1
-    vis_img = vis_keypoints(vis_img, vis_kps, skeleton)
-cv2.imwrite('output_pose_2d.jpg', vis_img)
+ #   vis_img = vis_keypoints(vis_img, vis_kps, skeleton)
+#cv2.imwrite('output_pose_2d.jpg', vis_img)
 
 # visualize 3d poses
 vis_kps = np.array(output_pose_3d_list)
